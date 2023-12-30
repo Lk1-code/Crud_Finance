@@ -8,12 +8,13 @@
     #menu{
         margin: 10px;
         width: 100%;
-        text-align: left; 
         display: flex;
         
     }
     #menu h1{
         margin: 15px;
+        border-bottom: 4px solid #ed51ed;
+        border-left-width: 1000px;
     }
     #menu nav{
         margin-left: 900px;
@@ -22,9 +23,10 @@
     #menu nav ul{
         font-size: 1.2rem;
         list-style-type:none;
-        text-decoration:underline;
-        text-underline-offset: 10px;
-        text-decoration-color: #e03de0;
+    }
+    #menu nav ul li{
+        border-bottom: 1px solid #ed51ed;
+        padding: 0 0 4px;
     }
     #menu nav ul a{
         color: #ffff;
@@ -32,6 +34,11 @@
         text-transform: uppercase;
     }
     #menu nav ul a:hover{
+        padding: 4px;
+        background-color: #ffff;
+        opacity: 0.5;
+        color: black;
+        border-radius: 5px;
         
     }
     section{
@@ -39,9 +46,6 @@
         margin-right:auto;
         margin-left:auto;
         width: 100%;
-    }
-    section h1{
-        color: #e03de0;
     }
     section h2{
         text-align: center;
@@ -59,17 +63,20 @@
     #texto1{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        margin-left: 200px;
-        width: 800px;
+        margin-left: 250px;
+        width: 700px;
         font-size: 23px;
     }
+    #texto1 h1{
+        border-bottom: 3px solid #e03de0;
+    }
     #texto1 p{
-        width: 800px;
-        margin-left: 50px;
+        width: 700px;
+        margin-left: 40px;
         margin-top: 250px;
     }
     #titulo{
-        margin-top: 300px;
+        margin-top: 130px;
         width: 600px;
     }
     #texto1 h1{
@@ -126,6 +133,10 @@
     #box a:hover{
         background-color: #e03de0;
     }
+    #mensage{
+        text-align: center;
+        font-size: 1.5rem;
+    }
     footer{
         margin-top: 50px;
         width: 100%;
@@ -140,7 +151,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    #footer_content h3,h2,h1{
+    #footer_content h3,h2{
         text-decoration: underline;
         text-decoration-color: #e03de0;
         text-decoration-thickness: 0.2rem;
