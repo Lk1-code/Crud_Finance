@@ -1,0 +1,44 @@
+@media screen and (max-width: 1920px){
+    body{
+        background-color: #575157;
+        margin: 0 auto;
+        color: #ffff;
+    }
+    #menu{
+        background-color: #e03de0;
+        height: 40px;
+        width: 100%;
+        
+    }
+    #menu nav{
+        display: flex;
+    }
+    #menu nav ul{
+        margin-left: 200px; 
+        list-style-type:none;
+
+    }
+    #menu nav ul a{
+        color: #ffff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    #menu nav ul a:hover{
+        background-color: #ed51ed;
+    }
+    section{
+        margin-right:auto;
+        margin-left:auto;
+        text-align: center;
+        width: 90%;
+    }
+    section h1{
+        color: #e03de0;
+    }
+    #texto1{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        width: 400px;
+    }
+}
