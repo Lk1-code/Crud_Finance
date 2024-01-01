@@ -1,9 +1,11 @@
 section{
+    margin-top: 50px;
     background: none;
     width: 700px;
+    height: 650px;
 }
 #Login{
-    height: 600px;
+    height: fit-content;
     background: transparent;  
     border-radius: 50px;
     border: 1px solid #ed51ed;
@@ -11,7 +13,7 @@ section{
     backdrop-filter: blur(10px);
 }
 #Login h1{   
-    margin-top: 100px;
+    margin-top: 70px;
     font-size: 36px;
     text-align: center;
 }
@@ -30,16 +32,20 @@ section{
     outline: none;
     border: 2px solid #ed51ed;
     border-radius: 40px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
 }
 .input-box input::placeholder{
     color: #fff;
     font-size: 20px;
-    
+    text-align: left;
+    padding-left: 20px;  
 }
 .input-box i{
     position: absolute;
-    margin-left: 320px;
-    margin-top: -35px;
+    margin-left: 380px;
+    margin-top: -38px;
     font-size: 20px;
 }
 #Login .remember-forgot{
@@ -80,6 +86,7 @@ section{
     font-size: 16px;
     color: #333;
     font-weight: 600;
+    margin-bottom: 40px;
 }
 #Login .register-link{
     font-size: 14.5px;
