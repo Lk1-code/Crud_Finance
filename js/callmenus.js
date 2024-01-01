@@ -14,7 +14,7 @@ class Navmenu extends HTMLElement{
                   <li><a href="#">Historico de Transações</a></li>
               </ul>
               <ul>
-                  <li><a href="../pages/login.html">Login/Cadastro</a></li>
+                  <li><a href="Crud_Finance/pages/login.html">Login/Cadastro</a></li>
               </ul>
           </nav>
     </div>`
